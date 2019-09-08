@@ -1,0 +1,109 @@
+.done{
+	text-decoration: line-through;
+}
+
+header{
+	grid-area: header;
+	background-color: grey;
+	text-align: center;
+	color: white;
+	padding-right: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-shadow: 5px 5px 5px #5e5d5d ;
+}
+
+article{
+	grid-area: content;
+	height: 80vh;
+	background-color: white;
+background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a309b52-03c6-4a52-91fc-c059712a48b6/d1bp95i-903c4b30-2110-47c2-a079-864b6cb32be6.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFhMzA5YjUyLTAzYzYtNGE1Mi05MWZjLWMwNTk3MTJhNDhiNlwvZDFicDk1aS05MDNjNGIzMC0yMTEwLTQ3YzItYTA3OS04NjRiNmNiMzJiZTYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Z6fc4Ky12ynRjjR_3hpVGyR8n4JvaB6UpyeDKITCUsM");
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+
+footer{
+	grid-area: footer;
+	background-color: green;
+}
+
+aside{
+	grid-area: side;
+	background-color: white;
+}
+
+.other-side{
+	grid-area: other-side;
+}
+
+.wrapper{
+	display: grid;
+	grid-gap: 2px;
+	grid-template-areas: 
+	"header header header"
+	"side content other-side"
+	"footer footer footer"
+}
+
+
+
+.main-stuff{
+display: flex;
+
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+ul{
+	padding-left: 70px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	line-height: 1.65;
+	margin-top: 7px;
+}
+
+li{
+	cursor: pointer;
+	display: inline-block;
+}
+
+input{
+	margin-top: 62px;
+	width: 200px;
+	margin-left: 155px;
+
+}
+
+button{
+width: 204px;
+margin-left: 155px;
+cursor: pointer;
+}
+
+footer{
+   color: white;
+   font-size: 1em;
+   justify-content: center;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   position: sticky;
+  bottom: 0px;
+  background-color: grey;
+text-align: center;
+
+height: 5vh;
+}
+
+.div{
+	display: inline-block;
+	float: right;
+	padding-right: 120px;
+}
+
+li-wrapper{
+/*	display: flex;
+
+	align-items: center;
+	justify-content: space-between;
+	margin: 5px;
+	flex-direction: row;*/
+}
